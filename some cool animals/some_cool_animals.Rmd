@@ -1,6 +1,6 @@
 ---
 title: "Some cool animal facts"
-author: "Philip Leftwich"
+author: "Stephanie Jaggard"
 output: html_document
 ---
 
@@ -57,7 +57,24 @@ knitr::opts_chunk$set(echo = TRUE)
 - They are not endangered, just very elusive
 - Closely related to raccoons
 
-###
+#### Baby Yoda
 
+![Photo: Courtesy of The Mandolorian](img/Grogu.jpg)
+
+##### Baby Yoda fun facts: 
+
+- Also known as "The Child"
+- Likes unfertilised frog eggs and control knobs
+- Strong with the force
+
+```{r}
+
+usethis::use_git_config(user.name = "Stephanie-Jaggard", user.email = "uau21rju@uea.ac.uk")
+
+```
+
+```{r}
+gitcreds::gitcreds_set(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)
+```
 ----------
 **Disclaimer:** This document is only for R Markdown & GitHub teaching purposes
